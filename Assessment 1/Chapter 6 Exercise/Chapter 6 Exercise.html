@@ -1,0 +1,31 @@
+<!DOCTYPE html> <!-- The HTML document type declaration, also known as DOCTYPE , is the first line of code required in every HTML document. The DOCTYPE declaration is an instruction to the web browser about what version of HTML the page is written in -->
+<html lang="en"> <!-- The "lang" attribute specifies which language is used to write the content of a web page. The "en" specifies the language of the document as English -->
+<head> <!-- An element used to define the head section of an HTML document -->
+  <meta charset="UTF-8"> <!-- It is an attribute that tells your browser what character encoding to use for this webpage to show the content as desired -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- It is an HTML tag that contains metadata about a webpage. They are used by search engine to determine the page content and how to treat a webpage -->
+  <title>Chapter 6 Exercise: Petrol Calculator</title> <!-- This element sets the title of the website -->
+  <link rel="stylesheet" href="Chapter 6 Exercise CSS Code.css"> <!-- Rel is short for relation. It specifies the relation between the tag and href . href stands for hypertext reference. It's the source of the file used by the tag. You can use both not only when connecting an external css file -->
+</head> <!-- Closes the "head section" part of the code -->
+<body> <!-- Start of the body section -->
+
+  <!-- Container for the calculator -->
+  <div class="calculator">
+    <!-- Heading for the calculator -->
+    <h2>Shell Calculator</h2>
+    <!-- Input field for the cost per liter with default value, step, and placeholder -->
+    <input type="number" id="cost-per-liter" value="1.72" step="0.01" placeholder="Cost per liter">
+    <!-- Input field for the liters purchased with default value, step, and placeholder -->
+    <input type="number" id="liters-purchased" value="0" step="0.01" placeholder="Liters purchased">
+    <!-- Button to trigger the calculateTotal function when clicked -->
+    <button onclick="calculateTotal()">Calculate</button>
+    <!-- Paragraph element to display the total cost -->
+    <p id="total-cost"></p>
+  </div>
+
+  <!-- Include external JavaScript file -->
+  <script src="Chapter 6 Exercise JS Code.js"></script>
+
+<!-- End of the body section -->
+</body>
+<!-- End of the HTML document -->
+</html>

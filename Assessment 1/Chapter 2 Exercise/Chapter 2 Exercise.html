@@ -1,0 +1,98 @@
+<!DOCTYPE html> <!-- The HTML document type declaration, also known as DOCTYPE , is the first line of code required in every HTML document. The DOCTYPE declaration is an instruction to the web browser about what version of HTML the page is written in -->
+<html lang="en"> <!-- The "lang" attribute specifies which language is used to write the content of a web page. The "en" specifies the language of the document as English -->
+<head> <!-- An element used to define the head section of an HTML document -->
+    <meta charset="UTF-8"> <!-- It is an attribute that tells your browser what character encoding to use for this webpage to show the content as desired -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- It is an HTML tag that contains metadata about a webpage. They are used by search engine to determine the page content and how to treat a webpage -->
+    <title>Chapter 2 Exercise: "One Page Website"</title> <!-- This element sets the title of the website -->
+    <link rel="stylesheet" href="Chapter 2 Exercise CSS Code.css"> <!-- Rel is short for relation. It specifies the relation between the tag and href . href stands for hypertext reference. It's the source of the file used by the tag. You can use both not only when connecting an external css file -->
+</head> <!-- Closes the "head section" part of the code -->
+<body> <!-- This tag defines the documents body, also contains all the contents in the HTML document-->
+    <!-- Header with navigation -->
+    <header> <!-- This element represents introductory content, usually at the beginning of a section, article, or a page. It typically contains headings, logos, navigation menus, search bars, and other elements related to identifying the content or providing navigation within the document or webpage -->
+        <div class="container"> <!-- The "div" element groups other elements of the page together. The "class" is an attribute. All HTML elements can carry a class attribute. If your elements have a class attribute then you will be able to write a CSS rule to select that class -->
+            <nav> <!-- This element represents a section of a page that links to other pages or to parts within the page -->
+                <ul> <!-- This element is the "Unordered List" represents an unordered list of items, typically rendered as a bulleted list -->
+                    <!-- Navigation links with anchor IDs -->
+                    <li><a href="#plot">PLOT</a></li> <!-- The "li" element is used to represent an item inside a list. The "a" tag defines a hyperlink, which is used to link from one page to another -->
+                    <li><a href="#cast">CAST & CREW</a></li>
+                    <li><a href="#reviews">REVIEWS</a></li>
+                    <!-- External link to the official website (opens in new tab) -->
+                    <li><a href="https://www.marvel.com/tv-shows/loki" target="_blank">OFFICIAL WEBSITE</a></li> <!-- The "target" attribute is used to specify where the linked document should open when a user clicks on a link -->
+                </ul> <!-- Closes the "unordered list" element part of the code -->
+            </nav> <!-- Closes the "nav" element part of the code -->
+        </div> <!-- Closes the "div" element part of the code -->
+    </header> <!-- Closes the "header" element part of the code -->
+
+    <!-- Plot section -->
+    <section id="plot"> <!-- The "section" element is a structural HTML element used to group together related elements. The "id" attribute specifies a unique identifier for an HTML element. It is most used to point to a style in a style sheet, and by JavaScript to manipulate the element with the specific ID -->
+        <div class="container"> <!-- The "div" element groups other elements of the page together. The "class" is an attribute. All HTML elements can carry a class attribute. If your elements have a class attribute then you will be able to write a CSS rule to select that class -->
+            <h1>Plot Overview</h1> <!-- This element is used to create the main title on a webpage and helps indicate the page's primary topic to visitors and search engines -->
+            <div class="content"> 
+                <blockquote> <!-- This html tag is used to define a block of text which is quoted from another source -->
+                <p> <!-- The HTML "p" tag defines a paragraph. A paragraph always starts on a new line, and browsers automatically adds a margin before and after a paragraph -->
+                    "Loki" follows the story of the God of Mischief after the events of "Avengers: Endgame." Loki, played by Tom Hiddleston, finds himself facing the Time Variance Authority (TVA) after he escapes with the Tesseract during the Avengers' time heist.
+                </p> <!-- Closes the "p" tag part of the code -->
+                <p>
+                    He is enlisted by the TVA to fix the timeline he broke by meddling with time, leading to a series of adventures across time and space.
+                </p>
+                </blockquote> <!-- Closes the "blockquote" element part of the code -->
+            </div>
+        </div> 
+    </section> <!-- Closes the "section" element part of the code -->
+
+    <!-- Cast & Crew section -->
+    <section id="cast"> <!-- The "section" element is a structural HTML element used to group together related elements. The "id" attribute specifies a unique identifier for an HTML element. It is most used to point to a style in a style sheet, and by JavaScript to manipulate the element with the specific ID -->
+        <div class="container"> <!-- The "div" element groups other elements of the page together. The "class" is an attribute. All HTML elements can carry a class attribute. If your elements have a class attribute then you will be able to write a CSS rule to select that class -->
+            <h1>Cast & Crew</h1> <!-- This element is used to create the main title on a webpage and helps indicate the page's primary topic to visitors and search engines -->
+            <div class="content">
+                <blockquote> <!-- This html tag is used to define a block of text which is quoted from another source -->
+                <ul> <!-- This element is the "Unordered List" represents an unordered list of items, typically rendered as a bulleted list -->
+                    <!-- List of main cast and crew -->
+                    <li>Tom Hiddleston as Loki</li> <!-- The "li" element is used to represent an item inside a list. The "a" tag defines a hyperlink, which is used to link from one page to another -->
+                    <li>Owen Wilson as Mobius M. Mobius</li>
+                    <li>Gugu Mbatha-Raw as Ravonna Renslayer</li>
+                    <li>Sophia Di Martino as Sylvie</li>
+                    <li>Richard E. Grant as Classic Loki</li>
+                    <li>Directed by Kate Herron</li>
+                    <li>Produced by Kevin Feige</li>
+                </ul> <!-- Closes the "div" element part of the code --> 
+                </blockquote> <!-- Closes the "blockquote" element part of the code -->
+            </div>
+        </div> <!-- Closes the "div" element part of the code -->
+    </section> <!-- Closes the "section" element part of the code -->
+
+    <!-- Reviews section -->
+    <section id="reviews"> <!-- The section id "reviews" is the section name used as an identifier for an HTML element -->
+        <div class="container">
+            <h1>Reviews</h1> <!-- This element is used to create the main title on a webpage and helps indicate the page's primary topic to visitors and search engines -->
+            <div class="review">
+                <!-- Review quote with source -->
+                <blockquote> <!-- This html tag is used to define a block of text which is quoted from another source -->
+                    <p> <!-- The HTML "p" tag defines a paragraph. A paragraph always starts on a new line, and browsers automatically adds a margin before and after a paragraph -->
+                        "Loki transcends the typical superhero fare with its complex narrative, stunning visuals, and standout performances."
+                    </p> <!-- Closes the "p" tag part of the code -->
+                    <footer>- Entertainment Weekly</footer>
+                </blockquote> <!-- Closes the "blockquote" element part of the code -->
+            </div>
+            <div class="review">
+                <!-- Another review quote with source -->
+                <blockquote> <!-- This html tag is used to define a block of text which is quoted from another source -->
+                    <p> <!-- The HTML "p" tag defines a paragraph. A paragraph always starts on a new line, and browsers automatically adds a margin before and after a paragraph -->
+                        "Loki is a thrilling ride from start to finish, blending elements of science fiction and fantasy seamlessly."
+                    </p> <!-- Closes the "p" tag part of the code -->
+                    <footer> <!-- This element is a structural element used to identify the footer of a page, document, article, or section -->
+                        - Collider
+                    </footer> <!-- Closes the "footer" element part of the code -->
+                </blockquote> <!-- Closes the "blockquote" element part of the code -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer with button linking to official website -->
+    <footer> <!-- This element is a structural element used to identify the footer of a page, document, article, or section -->
+        <div class="container"> <!-- The "div" element groups other elements of the page together. The "class" is an attribute. All HTML elements can carry a class attribute. If your elements have a class attribute then you will be able to write a CSS rule to select that class -->
+            <a href="https://www.marvel.com/tv-shows/loki" target="_blank" class="button">Visit Official Website</a> <!-- The "href" attribute specifies the URL of the page the link goes to. The "target" attribute is used to specify where the linked document should open when a user clicks on a link. Class in HTML is a reference which you use to apply some CSS properties to HTML elements -->
+        </div> <!-- Closes the "div" element part of the code -->
+    </footer> <!-- Closes the "footer" element part of the code -->
+</body> <!-- Closes the "body" element part of the code -->
+</html> <!-- Closes the "head section" or "html" element part of the code -->

@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    background-color: #d6d3ae; /* Deep green background color of the page */
+    color: black; /* Text color */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styling */
+header {
+    background-color: #192b21; /* Dark green background color of header */
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-weight: bold;
+    color: #e6b626; /* Text color of navigation links */
+    font-size: 20px;
+    padding: 10px 15px; /* Padding for navigation links */
+    border-radius: 5px; /* Rounded corners for navigation links */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+header nav ul li a:hover {
+    background-color: #50630d; /* Background color on hover */
+    color: #0D1F17; /* Dark green text color on hover */
+}
+
+/* Section styling */
+section {
+    padding: 50px 0;
+    border-top: 1px solid #444; /* Top border for sections */
+    border-bottom: 1px solid #444; /* Bottom border for sections */
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #0b450a; /* Color for the heading */
+}
+
+.content {
+    padding: 20px 0;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Reviews styling */
+.review {
+    margin-bottom: 40px;
+}
+
+blockquote {
+    font-size: 18px;
+    font-style: italic;
+    border-left: 5px solid #e6b626; /* Left border color */
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+blockquote footer {
+    margin-top: 10px;
+    font-style: normal;
+}
+
+/* Button styling */
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ffe599; /* Background color of the button */
+    color: #0D1F17; /* Text color of the button */
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.button:hover {
+    background-color: #e6b626; /* Darker background color on hover */
+}

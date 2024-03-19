@@ -1,0 +1,81 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, ul, li {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif; /* Set font family */
+    line-height: 1.6; /* Set line height */
+    background-color: #f9f9f9; /* Set background color */
+}
+
+.container {
+    width: 80%; /* Set container width */
+    margin: 0 auto; /* Center container horizontally */
+}
+
+header {
+    background-color: #055cb9; /* Set background color */
+    color: #fff; /* Set text color */
+    padding: 20px 0; /* Set padding */
+    text-align: center; /* Center-align text */
+}
+
+nav {
+    background-color: #628ad6; /* Set background color */
+    padding: 10px 0; /* Set padding */
+    text-align: center; /* Center-align text */
+}
+
+nav ul {
+    list-style-type: none; /* Remove default list style */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: inline-block; /* Display as inline-block to center */
+}
+
+nav ul li {
+    display: inline; /* Display list items inline */
+    margin-right: 20px; /* Add right margin between list items */
+}
+
+nav ul li a {
+    color: #fff; /* Set link text color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+main {
+    display: flex; /* Use flexbox layout */
+    justify-content: space-between; /* Distribute space between flex items */
+    padding: 40px 0; /* Set padding */
+}
+
+.column {
+    flex-basis: 30%; /* Set flex basis */
+    background-color: #fff; /* Set background color */
+    padding: 20px; /* Set padding */
+    border-radius: 8px; /* Add border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+.column h2 {
+    color: #007bff; /* Set heading color */
+    margin-bottom: 10px; /* Add bottom margin */
+}
+
+.column ul {
+    list-style-type: none; /* Remove default list style */
+}
+
+.column ul li {
+    padding: 5px 0; /* Set padding for list items */
+}
+
+footer {
+    background-color: #055cb9; /* Set background color */
+    color: #fff; /* Set text color */
+    padding: 20px 0; /* Set padding */
+    text-align: center; /* Center-align text */
+}

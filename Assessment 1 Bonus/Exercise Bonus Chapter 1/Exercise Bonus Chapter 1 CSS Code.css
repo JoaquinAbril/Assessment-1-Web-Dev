@@ -1,0 +1,100 @@
+/* Reset some default browser styles */
+body {
+    font-family: 'Arial', sans-serif; /* Set font family */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #f0f0f0; /* Set background color */
+}
+
+/* Header styles */
+header {
+    background-color: #333; /* Set background color */
+    color: #fff; /* Set text color */
+    padding: 20px; /* Set padding */
+    text-align: center; /* Center-align text */
+    border-bottom: 4px solid #ff6600; /* Add bottom border */
+}
+
+/* Heading styles */
+h1, h2, h3 {
+    margin-top: 0; /* Remove top margin */
+}
+
+/* Navigation menu styles */
+nav ul {
+    list-style-type: none; /* Remove default list style */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
+nav ul li {
+    display: inline; /* Display list items inline */
+    margin-right: 20px; /* Add right margin between list items */
+}
+
+nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Set link text color */
+    font-weight: bold; /* Set font weight */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+nav a:hover {
+    color: #ff6600; /* Change link color on hover */
+}
+
+/* Main content styles */
+main {
+    padding: 20px; /* Set padding */
+}
+
+/* Tag styles */
+.tag {
+    background-color: #fff; /* Set background color */
+    border: 1px solid #ccc; /* Set border */
+    padding: 20px; /* Set padding */
+    margin-bottom: 30px; /* Add bottom margin */
+    border-radius: 8px; /* Add border radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+.tag h3 {
+    font-size: 24px; /* Set font size */
+    color: #333; /* Set text color */
+    margin-bottom: 10px; /* Add bottom margin */
+}
+
+.tag p {
+    color: #666; /* Set text color */
+}
+
+/* Property styles */
+.property {
+    background-color: #fff; /* Set background color */
+    border: 1px solid #ccc; /* Set border */
+    padding: 20px; /* Set padding */
+    margin-bottom: 30px; /* Add bottom margin */
+    border-radius: 8px; /* Add border radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+.property h3 {
+    font-size: 24px; /* Set font size */
+    color: #333; /* Set text color */
+    margin-bottom: 10px; /* Add bottom margin */
+}
+
+.property p {
+    color: #666; /* Set text color */
+}
+
+/* Footer styles */
+footer {
+    background-color: #333; /* Set background color */
+    color: #fff; /* Set text color */
+    text-align: center; /* Center-align text */
+    padding: 10px; /* Set padding */
+    position: fixed; /* Position fixed at the bottom */
+    bottom: 0; /* Stick to the bottom */
+    width: 100%; /* Set width to full */
+}
