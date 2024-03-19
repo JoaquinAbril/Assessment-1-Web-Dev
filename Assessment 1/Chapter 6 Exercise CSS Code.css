@@ -1,0 +1,61 @@
+/* Setting font family for the entire document */
+body {
+  font-family: Arial, sans-serif; /* Specifies Arial font family as the preferred font, with fallback to sans-serif */
+  margin: 0; /* Resets default margin to 0 */
+  padding: 0; /* Resets default padding to 0 */
+  display: flex; /* Sets display property to flex for flexbox layout */
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+  height: 100vh; /* Sets the height of the body to 100% of the viewport height */
+  background-color: #f0f0f0; /* Sets background color to light gray */
+}
+
+/* Styling for heading level 1 elements */
+h1 {
+  align-items: baseline; /* Aligns the baseline of the heading with the baseline of its parent */
+}
+
+/* Styling for elements with class 'calculator' */
+.calculator {
+  background-color: #fff; /* Sets background color to white */
+  padding: 20px; /* Adds padding of 20px inside the calculator */
+  border-radius: 8px; /* Rounds the corners of the calculator */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a shadow effect to the calculator */
+}
+
+/* Styling for input[type="number"] and button elements */
+input[type="number"],
+button {
+  padding: 10px; /* Adds padding of 10px to input[type="number"] and button elements */
+  margin-bottom: 10px; /* Adds margin of 10px at the bottom of input[type="number"] and button elements */
+  border: 1px solid #ccc; /* Adds a 1px solid border with light gray color */
+  border-radius: 4px; /* Rounds the corners of input[type="number"] and button elements */
+  font-size: 16px; /* Sets font size to 16px */
+  transition: border-color 0.3s ease; /* Adds a smooth transition effect for border color changes */
+}
+
+/* Styling for input[type="number"] and button elements when focused */
+input[type="number"]:focus,
+button:focus {
+  outline: none; /* Removes default focus outline */
+  border-color: #3498db; /* Changes border color to a shade of blue when focused */
+}
+
+/* Styling for button elements */
+button {
+  background-color: #3498db; /* Sets background color to a shade of blue */
+  color: #fff; /* Sets text color to white */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+  transition: background-color 0.3s ease; /* Adds a smooth transition effect for background color changes */
+}
+
+/* Styling for button elements on hover */
+button:hover {
+  background-color: #2980b9; /* Changes background color to a slightly darker shade of blue on hover */
+}
+
+/* Styling for element with id 'total-cost' */
+#total-cost {
+  font-size: 18px; /* Sets font size to 18px */
+  margin-top: 10px; /* Adds margin of 10px at the top */
+}

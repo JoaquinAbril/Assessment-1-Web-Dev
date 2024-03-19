@@ -1,0 +1,26 @@
+    body {
+      display: flex; /* Is used to create a flex container, which enables a flex layout. When applied to an element, it turns it into a flex container, and its direct children become flex items */
+      justify-content: center; /* Aligns content horizontally at the center */
+    }
+    .image-container {
+        display: inline-block; /* Aligns images from left to right */
+      margin-right: 20px; /* Adds space between images */
+      vertical-align: top; /* Aligns images to the top of the container */
+    }
+    img {
+      max-width: 100%; /* Ensures images don't exceed container width */
+      height: auto; /* Retains the original aspect ratio of images */
+      filter: grayscale(30%); /* Applies grayscale filter to all images set to 30% */
+    }
+    p.title {
+      font-weight: bold; /* Makes the text bold */
+      color: black; /* Sets the text color to black */
+      padding: 10px; /* Adds padding to the paragraph */
+      margin: 0; /* Removes default margin */
+      font-size: 40px; /* Sets the font size to 40 pixels */
+      text-align: center; /* Aligns the text to the center */
+    }
+    p.copyright {
+      font-size: 20px; /* Sets the font size of the copyright text to 18 pixels */
+      margin: 0; /* Removes default margin */
+    }
