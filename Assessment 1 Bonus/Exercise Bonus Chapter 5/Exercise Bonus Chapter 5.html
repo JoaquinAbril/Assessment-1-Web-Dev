@@ -1,24 +1,42 @@
+<!-- The doctype declaration specifies the document type and version of HTML -->
 <!DOCTYPE html>
+
+<!-- Start of the HTML document with language set to English -->
 <html lang="en">
 <head>
+    <!-- Meta tag specifying the character encoding -->
     <meta charset="UTF-8">
+    <!-- Meta tag specifying the viewport settings for responsive design -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comedy Radio Soundboard</title>
+    <!-- Title of the HTML document -->
+    <title>Alan Partridge Soundboard</title>
+    <!-- Link to an external CSS file for styling -->
     <link rel="stylesheet" href="Exercise Bonus Chapter 5 CSS Code.css">
 </head>
 <body>
-    <div class="soundboard">
-        <div class="audio-samples">
+    <!-- Container div to hold all content -->
+    <div class="container">
+        <!-- Heading displaying the title of the soundboard -->
+        <h1 class="title">Alan Partridge Soundboard</h1>
+        <!-- Div containing the soundboard buttons -->
+        <div id="soundboard" class="soundboard">
+            <!-- Soundboard buttons triggering different sounds -->
+            <button class="button" data-sound="sounds/aha.mp3">A-ha!</button>
+            <button class="button" data-sound="sounds/dan.mp3">Dan! Dan! Dan!</button>
+            <!-- Add more buttons for other sound clips -->
         </div>
-        <div class="text-to-speech">
-            <textarea id="text-to-speech-input" placeholder="Type your text here..."></textarea>
-            <button id="text-to-speech-button">Convert to Audio</button>
-        </div>
-        <div class="pagination">
-            <button id="prev-page" disabled>&lt;</button>
-            <button id="next-page">&gt;</button>
+        <!-- Div containing the text input and button for making Alan say something -->
+        <div class="textpad">
+            <!-- Textarea for user input -->
+            <textarea id="textInput" placeholder="Type something for Alan Partridge to say..."></textarea>
+            <!-- Button triggering Alan to say the typed text -->
+            <button id="textButton" class="button">Make Alan Say It!</button>
         </div>
     </div>
+
+    <!-- Audio element for playing sound clips -->
+    <audio id="audio"></audio>
+    <!-- Link to an external JavaScript file for functionality -->
     <script src="Exercise Bonus Chapter 5 JS code.js"></script>
 </body>
 </html>
