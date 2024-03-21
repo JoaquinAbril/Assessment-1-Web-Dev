@@ -4,6 +4,14 @@ body {
     margin: 0;
     padding: 0;
     color: #fff; /* Text color */
+    /* Set the background image */
+    background-image: url("sea.jpg");
+    /* Ensure the background image covers the entire viewport */
+    background-size: cover;
+    /* Center the background image horizontally and vertically */
+    background-position: center;
+    /* Fix the background image so it doesn't scroll with the content */
+    background-attachment: fixed;
 }
 
 .container {
